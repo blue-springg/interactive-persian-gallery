@@ -1,0 +1,60 @@
+// Array of image info — add meaningful alt text for each image
+const images = [
+  { src: "image/m1.jfif", alt: "Takht-e Jamshid ceremonial stairway detail" },
+  { src: "image/m2.jfif", alt: "Stone relief of Achaemenid soldiers" },
+  { src: "image/m3.jfif", alt: "Ruins of Persepolis palace columns" },
+  { src: "image/m4.jfif", alt: "Gate of All Nations facade" },
+  { src: "image/m5.jfif", alt: "Apadana Palace grand staircase" },
+  { src: "image/m6.jfif", alt: "Carved winged bulls at Takht-e Jamshid" },
+  { src: "image/m7.jfif", alt: "Stone carvings of Achaemenid kings" },
+  { src: "image/m8.jfif", alt: "Ancient Persian architectural detail" },
+  { src: "image/m9.jfif", alt: "View of Persepolis from above" },
+  { src: "image/m10.jfif", alt: "Stone inscriptions at Takht-e Jamshid" },
+];
+
+// Create gallery, add tabindex and event listeners
+function createGallery() {
+  const gallery = document.getElementById("gallery");
+
+  images.forEach((image, index) => {
+    const figure = document.createElement("figure");
+    const img = document.createElement("img");
+    const caption = document.createElement("figcaption");
+
+    img.src = image.src;
+    img.alt = image.alt;
+    img.setAttribute("tabindex", "0");  // Make focusable by keyboard
+
+    // Mouse events
+    img.addEventListener("mouseover", () => {
+      img.style.border = "4px solid #b49e5c"; // Burnt gold border on hover
+    });
+
+    img.addEventListener("mouseleave", () => {
+      img.style.border = "none";
+    });
+
+    // Keyboard focus events
+    img.addEventListener("focus", () => {
+      img.style.outline = "4px solid #8b0000"; // Dark red outline on focus
+      console.log(`Focused on image ${index + 1}: ${image.alt}`);
+    });
+
+    img.addEventListener("blur", () => {
+      img.style.outline = "none";
+      console.log(`Blurred image ${index + 1}`);
+    });
+
+    caption.textContent = `Image ${index + 1}`; // Simple caption
+
+    figure.appendChild(img);
+    figure.appendChild(caption);
+    gallery.appendChild(figure);
+  });
+}
+
+// Called on page load
+function pageLoaded() {
+  console.log("Page loaded, building gallery...");
+  createGallery();
+}

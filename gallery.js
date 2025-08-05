@@ -1,14 +1,14 @@
 // Array of image info — add meaningful alt text for each image
 const images = [
   { src: "image/m1.jfif", alt: "Takht-e Jamshid ceremonial stairway detail" },
-  { src: "image/m2.jfif", alt: "Stone relief of Achaemenid soldiers" },
+  { src: "image/m2.jpg", alt: "Stone relief of Achaemenid soldiers" },
   { src: "image/m3.jfif", alt: "Ruins of Persepolis palace columns" },
   { src: "image/m4.jfif", alt: "Gate of All Nations facade" },
-  { src: "image/m5.jfif", alt: "Apadana Palace grand staircase" },
+  { src: "image/m5.jpg", alt: "Apadana Palace grand staircase" },
   { src: "image/m6.jfif", alt: "Carved winged bulls at Takht-e Jamshid" },
-  { src: "image/m7.jfif", alt: "Stone carvings of Achaemenid kings" },
-  { src: "image/m8.jfif", alt: "Ancient Persian architectural detail" },
-  { src: "image/m9.jfif", alt: "View of Persepolis from above" },
+  { src: "image/m7.jpg", alt: "Stone carvings of Achaemenid kings" },
+  { src: "image/m8.jpg", alt: "Ancient Persian architectural detail" },
+  { src: "image/m9.jpg", alt: "View of Persepolis from above" },
   { src: "image/m10.jfif", alt: "Stone inscriptions at Takht-e Jamshid" },
 ];
 

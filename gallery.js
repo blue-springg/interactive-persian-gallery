@@ -1,5 +1,5 @@
 const images = [
-  { src: "image/m1.jfif", alt: "Takht-e Jamshid ceremonial stairway detail" },
+  { src: "https://www.visitouriran.com/blog/wp-content/uploads/upload/doc_2024-05-11_15-09-27-1.webp", alt: "Takht-e Jamshid ceremonial stairway detail" },
   { src: "image/m2.jpg", alt: "Stone relief of Achaemenid soldiers" },
   { src: "image/m3.jfif", alt: "Ruins of Persepolis palace columns" },
   { src: "image/m4.jfif", alt: "Gate of All Nations facade" },

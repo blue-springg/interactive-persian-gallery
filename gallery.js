@@ -1,14 +1,14 @@
 const images = [
-  { src: "https://www.visitouriran.com/blog/wp-content/uploads/upload/doc_2024-05-11_15-09-27-1.webp", alt: "Takht-e Jamshid ceremonial stairway detail" },
-  { src: "image/m2.jpg", alt: "Stone relief of Achaemenid soldiers" },
-  { src: "image/m3.jfif", alt: "Ruins of Persepolis palace columns" },
-  { src: "image/m4.jfif", alt: "Gate of All Nations facade" },
-  { src: "image/m5.jpg", alt: "Apadana Palace grand staircase" },
-  { src: "image/m6.jfif", alt: "Carved winged bulls at Takht-e Jamshid" },
-  { src: "image/m7.jpg", alt: "Stone carvings of Achaemenid kings" },
-  { src: "image/m8.jpg", alt: "Ancient Persian architectural detail" },
-  { src: "image/m9.jpg", alt: "View of Persepolis from above" },
-  { src: "image/m10.jfif", alt: "Stone inscriptions at Takht-e Jamshid" },
+  { src: "https://www.visitouriran.com/blog/wp-content/uploads/upload/Persepolis-13.webp", alt: "Takht-e Jamshid ceremonial stairway detail" },
+  { src: "https://www.visitouriran.com/blog/wp-content/uploads/upload/doc_2024-05-11_15-09-37.webp", alt: "Stone relief of Achaemenid soldiers" },
+  { src: "https://iranontour.com/wp-content/webp-express/webp-images/uploads/2020/08/Persepolis-768x521.jpg.webp", alt: "Ruins of Persepolis palace columns" },
+  { src: "https://iranontour.com/wp-content/webp-express/webp-images/uploads/2020/09/the-gate-of-all-nations-768x512.jpg.webp", alt: "Gate of All Nations facade" },
+  { src: "https://iranontour.com/wp-content/webp-express/webp-images/uploads/2020/08/6497745937_816904d4bc_o-768x504.jpg.webp", alt: "Apadana Palace grand staircase" },
+  { src: "https://www.visitouriran.com/blog/wp-content/uploads/upload/doc_2024-05-11_15-09-33.webp", alt: "Carved winged bulls at Takht-e Jamshid" },
+  { src: "https://iranontour.com/wp-content/webp-express/webp-images/uploads/2020/08/Gate_of_All_Nations_Persepolis-768x502.jpg.webp", alt: "Stone carvings of Achaemenid kings" },
+  { src: "https://iranontour.com/wp-content/webp-express/webp-images/uploads/2020/03/Passargade-Day-tour-feature-image.jpg.webp", alt: "Ancient Persian architectural detail" },
+  { src: "https://ifpnews.com/wp-content/uploads/2015/05/Takht-e-Jamshid033.jpg", alt: "View of Persepolis from above" },
+  { src: "https://seeiran.ir/en/wp-content/uploads/2017/04/takht-e-jamshid-persepolis-1.jpg", alt: "Stone inscriptions at Takht-e Jamshid" },
 ];
 
 function createGallery() {
